@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.2/build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.2/build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.2/build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Api.1312894513.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Api" t="IncludeRecursive">
+        <e p="Api.csproj" t="IncludeRecursive" />
+        <e p="Api.csproj.DotSettings" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="JobController.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="NotFoundException.cs" t="Include" />
+        </e>
+        <e p="HostedServices" t="Include">
+          <e p="TimedHostedService.cs" t="Include" />
+        </e>
+        <e p="Middlewares" t="Include">
+          <e p="ExceptionsMiddleware.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="CreateJob" t="Include">
+            <e p="CreateJob.cs" t="Include" />
+            <e p="CreateJobResponse.cs" t="Include" />
+            <e p="CreateJobsRequest.cs" t="Include" />
+            <e p="ICreateJob.cs" t="Include" />
+          </e>
+          <e p="GetJobReport" t="Include">
+            <e p="GetJobReport.cs" t="Include" />
+            <e p="IGetJobReport.cs" t="Include" />
+            <e p="JobReportResponse.cs" t="Include" />
+          </e>
+          <e p="GetJobState" t="Include">
+            <e p="GetJobState.cs" t="Include" />
+            <e p="IGetJobState.cs" t="Include" />
+            <e p="JobStateResponse.cs" t="Include" />
+          </e>
+          <e p="IJobScheduledTask.cs" t="Include" />
+          <e p="JobProcessor" t="Include">
+            <e p="FastFakeDataProcessor.cs" t="Include" />
+            <e p="IDATAProcessor.cs" t="Include" />
+            <e p="SlowFakeDataProcessor.cs" t="Include" />
+          </e>
+          <e p="JobScheduledTask.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Api.sln" t="IncludeFlat" />
+      <e p="Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="Data.csproj.DotSettings" t="Include" />
+        <e p="DataInstaller.cs" t="Include" />
+        <e p="MyContext" t="Include">
+          <e p="MyContext.cs" t="Include" />
+          <e p="Repositories" t="Include">
+            <e p="JobRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Domain.csproj.DotSettings" t="Include" />
+        <e p="Job" t="Include">
+          <e p="Entities" t="Include">
+            <e p="DataPoint.cs" t="Include" />
+            <e p="Job.cs" t="Include" />
+            <e p="JobFactory.cs" t="Include" />
+            <e p="JobState.cs" t="Include" />
+            <e p="JobType.cs" t="Include" />
+            <e p="Log.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="IJobRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Shared" t="Include">
+          <e p="Repositories" t="Include">
+            <e p="ICrudRepository.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="IntegrationTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CreateJobEndpointTest.cs" t="Include" />
+        <e p="GetJobReportEndpointTest.cs" t="Include" />
+        <e p="GetJobStateEndpointTest.cs" t="Include" />
+        <e p="HealthCheckEndpointTest.cs" t="Include" />
+        <e p="IntegrationTests.csproj" t="IncludeRecursive" />
+        <e p="JobProcessorTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="IntegrationTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TestUtils" t="Include">
+          <e p="HttpClientExtensions.cs" t="Include" />
+          <e p="HttpResponseMessageExtensions.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Tests" t="Include" />
+      <e p="UnitTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="JobProcessTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="UnitTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="UnitTests.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
